@@ -9,7 +9,7 @@ import org.springframework.beans.BeanUtils;
 import java.util.List;
 
 @Entity
-@Table(name="{{namePascalCase}}_table")
+@Table(name="TB_{{namePascalCase}}")
 public class {{namePascalCase}} {
 
     {{#aggregateRoot.fieldDescriptors}}
